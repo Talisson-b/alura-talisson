@@ -193,11 +193,12 @@ a{
 
 @media  (max-width:480px){
     .container__caixa, .principal, .secundario, .rodape{
-        width: 400px;
+        width: 300px;
         
     }
     h1 h2 h3{
         text-align: center;
+        color: rgb(228, 13, 189);
     }
     .rodape__lista{
         display: inline-block;
