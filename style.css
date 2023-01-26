@@ -191,3 +191,21 @@ a{
     transform: rotate(30deg);
 }
 
+@media  (max-width:480px){
+    .container__caixa, .principal, .secundario, .rodape{
+        width: 400px;
+        
+    }
+    h1 h2 h3{
+        text-align: center;
+    }
+    .rodape__lista{
+        display: inline-block;
+        margin-bottom: 3em;
+    }
+    .dispositivos{
+        display: inline-block;
+    }
+    
+}
+
